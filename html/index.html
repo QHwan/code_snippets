@@ -1,21 +1,78 @@
-<!-- 웹 표준 준수를 위해 !doctype html을 코드 첫 줄에 명시한다 -->
 <!doctype html>
 <html>
+<<<<<<< HEAD
     <!-- head는 웹페이지의 사용된 요소들의 정보를 가진다 -->
     <head>       
+=======
+    <head>
+        <!-- head는 웹페이지의 정보를 가진다 -->
+>>>>>>> parent of 66bbe58... html
         <meta charset="utf-8">
         <!-- chrome의 경우 tab에 title이 표시된다 -->
         <title> 홈페이지 </title>
     </head>
     <!-- body는 웹페이지의 실제 컨텐츠를 가진다 -->
     <body>
+<<<<<<< HEAD
         <!-- div는 부모역할을 하는 태그 -->
+        <!-- div는 블록 요소 -->
         <div>
-            <!-- p, h 태그는 div 태그의 자식 역할을 한다-->
             <p> 문단 1입니다. </p>
-            <p> 문단 2입니다. </p>
+            <p> p 태그는 div 태그의 자식이다 </p>
             <h1> 제목 1입니다. </h1>
-            <h2> 제목 2입니다. </h2>
-        </div>  
+            <h2> h 태그도 div 태그의 자식이다 </h2>
+
+            <a href="https://google.com">
+                a 태그는 하이퍼링크로 다른 웹페이지와 연결한다.
+                이때 태그 안에 속성 (attribute) 을 입력할 수 있다. 
+            </a>
+
+            <br>
+            <a href="https://google.com"> 
+                br 태그는 줄바꿈 태그로 empty element
+            </a>
+            <br>
+
+            <!-- img 태그는 이미지 파일을 적용한다 -->
+            <img src=http://www1.lsbu.ac.uk/water/images/human_lysozyme.gif>
+            <br>
+
+            <p id="p_id"> id 태그는 유일한 요소의 식별자 역할을 한다. </p>
+
+            <p class="p_class"> class 태그는 다중 요소의 식별자 역할을 한다. </p>
+            <p class="p_class"> 클래스를 가지는 p 태그입니다. </p>
+            <p class="p_class"> 클래스를 가지는 p 태그입니다. </p>
+            <p class="p_class"> 클래스를 가지는 p 태그입니다. </p>
+            
+        </div>
+
+        <!-- 이 구문은 이미지에 하이퍼링크를 결합한 구문이다 -->
+        <div>
+            <a href="https://google.com">
+                <img src=http://www1.lsbu.ac.uk/water/images/human_lysozyme.gif>
+            </a>
+            <br>
+        </div>
+
+        <!-- div는 블록 요소 & 범용 요소 -->
+        <!-- 그래서 다른 블록 요소를 포함할 수 있다 -->
+        </div>
+            <p> p 태그는 블록 요소. </p>
+            <h1> h1 태그도 블록 요소. 둘 다 자동 줄바꿈을 지원한다. </h1>
+
+        </div>
+
+        <a href="google.co.kr"> a 는 인라인 요소여서 줄바꿈이 적용되지 않는다. </a>
+        <a href="google.co.kr"> a 는 인라인 요소여서 줄바꿈이 적용되지 않는다. </a>
+
+        <p> 
+            <a href="google.co.kr"> 블록 요소 p 안에 인라인 요소 a 포함이 가능하다. </a> 
+        </p>
+
+        <a> <a href="google.co.kr"> 인라인 요소 a 안에 또다른 인라인 요소 a 표현이 가능하다. </a> </a>
+=======
+        <!-- 엘리먼트를 여기에 작성한다 -->
+        <h1> "안녕하세요!" </h1>
+>>>>>>> parent of 66bbe58... html
     </body>
 </html>
